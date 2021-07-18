@@ -53,8 +53,6 @@ MonoBehaviour:
   onFinish:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114376854373756430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cee2b1e5ee1c40b6bdeb93706f3e17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 0
+  isExpanded: 1
   character:
     target: 2
     gameObject: {fileID: 0}
@@ -100,6 +98,9 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
+    eventChangeVariable:
+      m_PersistentCalls:
+        m_Calls: []
   item:
     item: {fileID: 114202326578594358, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
   type: 2

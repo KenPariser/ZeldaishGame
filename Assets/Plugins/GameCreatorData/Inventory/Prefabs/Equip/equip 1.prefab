@@ -81,9 +81,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fe21fe23cad14b3cbc622d92c17a9a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 0
+  isExpanded: 1
   character:
-    target: 1
+    target: 0
     character: {fileID: 0}
     local:
       allowTypesMask: 512
@@ -102,10 +102,10 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   action: 0
-  bone: 18
+  bone: 7
   instance:
     target: 3
-    gameObject: {fileID: 100000, guid: a1ff27b938207407b8c47586f1b6d1bc, type: 3}
+    gameObject: {fileID: 6127778902043319522, guid: d112ddd8f43afec42aa206149105ba4c, type: 3}
     global:
       allowTypesMask: 512
       name: 
@@ -123,5 +123,5 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   space: 1
-  position: {x: 0.1, y: -0.03, z: 0}
-  rotation: {x: -90, y: 0, z: 30}
+  position: {x: -80, y: 22, z: 0}
+  rotation: {x: 0, y: 90, z: 0}
