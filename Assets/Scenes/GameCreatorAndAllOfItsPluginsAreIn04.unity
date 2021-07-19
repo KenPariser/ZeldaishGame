@@ -11120,6 +11120,7 @@ GameObject:
   - component: {fileID: 1987574168}
   - component: {fileID: 1987574167}
   - component: {fileID: 1987574166}
+  - component: {fileID: 1987574169}
   m_Layer: 0
   m_Name: Conditions-Equip
   m_TagString: Untagged
@@ -11157,7 +11158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clauses:
   - {fileID: 1987574168}
-  defaultActions: {fileID: 1736158019}
+  defaultActions: {fileID: 179996478}
   onInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -11193,7 +11194,7 @@ MonoBehaviour:
     eventChangeVariable:
       m_PersistentCalls:
         m_Calls: []
-  condition: 0
+  condition: 1
 --- !u!114 &1987574167
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -11208,6 +11209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   conditions:
   - {fileID: 1987574166}
+  - {fileID: 1987574169}
 --- !u!114 &1987574168
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -11222,7 +11224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: Clause
   conditionsList: {fileID: 1987574167}
-  actions: {fileID: 179996478}
+  actions: {fileID: 1736158019}
   isExpanded: 1
   onCheckConditions:
     m_PersistentCalls:
@@ -11230,6 +11232,42 @@ MonoBehaviour:
   onExecuteActions:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1987574169
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987574163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f695fde7c1d484cc494bee14cbb7c046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 1
+  character:
+    target: 0
+    gameObject: {fileID: 0}
+    global:
+      allowTypesMask: 512
+      name: 
+    local:
+      allowTypesMask: 512
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
+    eventChangeVariable:
+      m_PersistentCalls:
+        m_Calls: []
+  hasEquipped: 1
+  item:
+    item: {fileID: 114202326578594358, guid: 7db43c44761c8486cb3f2e9968376eb5, type: 2}
+  types: -1
 --- !u!1 &2000192653
 GameObject:
   m_ObjectHideFlags: 0
