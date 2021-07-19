@@ -305,6 +305,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 203225563548822282, guid: 8caa3a4ab8dae41249c78a1af7769e1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 203225563548822292, guid: 8caa3a4ab8dae41249c78a1af7769e1e, type: 3}
       propertyPath: m_Name
       value: Canvas - Minimap
