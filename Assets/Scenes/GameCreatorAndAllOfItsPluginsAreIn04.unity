@@ -12185,14 +12185,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2133056007}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2a2564ca30de49dcbe68875262ec44d, type: 3}
+  m_Script: {fileID: 11500000, guid: f23fc4dc7602f496b888f9d92118038b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 2133056019}
   keyCode: 98
-  holdTime: 0.5
-  timeMode: 0
-  execute: 1
 --- !u!114 &2133056011
 MonoBehaviour:
   m_ObjectHideFlags: 3
