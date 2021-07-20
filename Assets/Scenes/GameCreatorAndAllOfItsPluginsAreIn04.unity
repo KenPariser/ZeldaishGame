@@ -1093,7 +1093,7 @@ MonoBehaviour:
   isExpanded: 1
   target:
     target: 3
-    gameObject: {fileID: 677707147}
+    gameObject: {fileID: 2133056007}
     global:
       allowTypesMask: 512
       name: 
@@ -2765,11 +2765,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644609566}
   m_CullTransparentMesh: 1
---- !u!1 &677707147 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 131468, guid: f61def225eac3e247985f6679965a655, type: 3}
-  m_PrefabInstance: {fileID: 513958413}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &683624483
 GameObject:
   m_ObjectHideFlags: 0
