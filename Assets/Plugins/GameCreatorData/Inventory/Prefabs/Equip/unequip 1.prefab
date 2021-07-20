@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 114217160543198172}
   - component: {fileID: 114862963190555666}
   - component: {fileID: 114132079239255810}
+  - component: {fileID: 1015639166869113484}
   m_Layer: 0
   m_Name: unequip 1
   m_TagString: Untagged
@@ -53,8 +54,6 @@ MonoBehaviour:
   onFinish:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114862963190555666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,6 +68,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 114132079239255810}
+  - {fileID: 1015639166869113484}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &114132079239255810
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fe21fe23cad14b3cbc622d92c17a9a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 0
+  isExpanded: 1
   character:
     target: 1
     character: {fileID: 0}
@@ -100,8 +100,11 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
+    eventChangeVariable:
+      m_PersistentCalls:
+        m_Calls: []
   action: 2
-  bone: 18
+  bone: 24
   instance:
     target: 2
     gameObject: {fileID: 0}
@@ -118,6 +121,37 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
+    eventChangeVariable:
+      m_PersistentCalls:
+        m_Calls: []
   space: 1
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0}
+--- !u!114 &1015639166869113484
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730596129045396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a0f7f7769794920bedba2c76796801, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 1
+  variable:
+    variableType: 0
+    global:
+      allowTypesMask: 8
+      name: SwordEquiped
+    local:
+      allowTypesMask: 8
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+    list:
+      targetType: 3
+      targetObject: {fileID: 0}
+      select: 1
+      index: 0
