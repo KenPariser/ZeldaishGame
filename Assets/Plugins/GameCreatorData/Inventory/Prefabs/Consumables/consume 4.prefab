@@ -83,7 +83,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isExpanded: 1
   character:
-    target: 2
+    target: 0
     gameObject: {fileID: 0}
     global:
       allowTypesMask: 512

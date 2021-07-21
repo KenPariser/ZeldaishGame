@@ -349,7 +349,7 @@ MonoBehaviour:
     translationID: 0
   itemColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   sprite: {fileID: 21300000, guid: a6719796afd6442638107c46bb167533, type: 3}
-  prefab: {fileID: 0}
+  prefab: {fileID: 6127778902043319522, guid: d112ddd8f43afec42aa206149105ba4c, type: 3}
   canBeSold: 1
   price: 25
   maxStack: 1

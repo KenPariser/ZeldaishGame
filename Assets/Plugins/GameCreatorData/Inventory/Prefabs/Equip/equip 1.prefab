@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4755189463502692}
   - component: {fileID: 114913937996362094}
   - component: {fileID: 114579303995260872}
-  - component: {fileID: 114389752638497950}
   - component: {fileID: 4681632659538312656}
   m_Layer: 0
   m_Name: equip 1
@@ -66,67 +65,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6d5a50368374438dbff3af09a8fefb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 114389752638497950}
-  - {fileID: 4681632659538312656}
+  actions: []
   executingIndex: -1
   isExecuting: 0
---- !u!114 &114389752638497950
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320376122020318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fe21fe23cad14b3cbc622d92c17a9a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 0
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  action: 0
-  bone: 7
-  instance:
-    target: 3
-    gameObject: {fileID: 6127778902043319522, guid: d112ddd8f43afec42aa206149105ba4c, type: 3}
-    global:
-      allowTypesMask: 512
-      name: 
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  space: 1
-  position: {x: -80, y: 22, z: 0}
-  rotation: {x: 0, y: 90, z: 0}
 --- !u!114 &4681632659538312656
 MonoBehaviour:
   m_ObjectHideFlags: 3
