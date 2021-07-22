@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 4568281883018504}
   - component: {fileID: 114217160543198172}
   - component: {fileID: 114862963190555666}
-  - component: {fileID: -9149203091752108982}
-  - component: {fileID: 3838464919609494169}
+  - component: {fileID: 114132079239255810}
   m_Layer: 0
   m_Name: unequip 7
   m_TagString: Untagged
@@ -54,6 +53,8 @@ MonoBehaviour:
   onFinish:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114862963190555666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,10 +68,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 3838464919609494169}
+  - {fileID: 114132079239255810}
   executingIndex: -1
   isExecuting: 0
---- !u!114 &-9149203091752108982
+--- !u!114 &114132079239255810
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -82,7 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fe21fe23cad14b3cbc622d92c17a9a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isExpanded: 1
+  isExpanded: 0
   character:
     target: 1
     character: {fileID: 0}
@@ -99,19 +100,16 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  action: 0
+  action: 2
   bone: 17
   instance:
-    target: 3
-    gameObject: {fileID: 100000, guid: 381609f353af64284830f09216ee738f, type: 3}
+    target: 2
+    gameObject: {fileID: 0}
     global:
-      allowTypesMask: 512
+      allowTypesMask: -1
       name: 
     local:
-      allowTypesMask: 512
+      allowTypesMask: -1
       name: 
       targetType: 2
       targetObject: {fileID: 0}
@@ -120,65 +118,6 @@ MonoBehaviour:
       targetObject: {fileID: 0}
       select: 1
       index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
   space: 1
-  position: {x: -0.02, y: 0.05, z: 0.02}
-  rotation: {x: -80, y: -20, z: 30}
---- !u!114 &3838464919609494169
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730596129045396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fe21fe23cad14b3cbc622d92c17a9a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isExpanded: 1
-  character:
-    target: 1
-    character: {fileID: 0}
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    global:
-      allowTypesMask: 512
-      name: 
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  action: 0
-  bone: 17
-  instance:
-    target: 3
-    gameObject: {fileID: 100000, guid: 381609f353af64284830f09216ee738f, type: 3}
-    global:
-      allowTypesMask: 512
-      name: 
-    local:
-      allowTypesMask: 512
-      name: 
-      targetType: 2
-      targetObject: {fileID: 0}
-    list:
-      targetType: 3
-      targetObject: {fileID: 0}
-      select: 1
-      index: 0
-    eventChangeVariable:
-      m_PersistentCalls:
-        m_Calls: []
-  space: 1
-  position: {x: -0.02, y: 0.05, z: 0.02}
-  rotation: {x: -80, y: -20, z: 30}
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
